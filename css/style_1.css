@@ -1,0 +1,411 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear; 
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 9%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+}
+
+.header .logo 
+{
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #10221b;
+    font-weight: bolder;
+}
+
+.header .logo i 
+{
+    color: #219150;
+}
+ 
+.header .navbar a
+ {
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: #10221b;
+}
+
+.header .navbar a:hover
+ {
+    color: #219150;
+}
+
+.Header
+{
+    width: 100%;
+    height: 17rem;
+    background-image: url(../images/36.png);
+}
+
+.Title
+{
+    width: 20rem;
+    height: 15rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10rem;
+}
+.Title h2
+{
+    color: white;
+}
+
+.header-content
+{
+    width: 100%;
+    height: auto;
+    
+}
+.header-container
+{
+    width: 100%;
+    height: 30rem;
+    
+}
+.Title-1 
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
+    padding: 4.5rem 0 0 0;
+}
+.container-1
+{
+    width: 75%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 3.7rem;
+}
+
+.container-1 p
+{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.container-2
+{
+    width: 100%;
+    height: 35rem;
+    background-color:rgb(247,247,247) ;
+}
+.Title-2
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
+    padding: 2rem 0 0 15rem;
+
+}
+.about-2
+{
+    padding: -10rem 0 0 0;
+    width: 100%;
+    height: 27rem;
+
+}
+.about-2 img
+{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 0 0 4rem;
+}
+.about-2 p
+{
+   margin-top: -17rem;
+   margin-left: 27rem;
+}
+.container-3
+{
+    width: 100%;
+    height: 40rem;
+    
+}
+.Title-3
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin: 0 0 0 -24rem;
+    padding: 3rem 0 0 0;    
+}
+.about-3
+{
+    width: 100%;
+    height: 28rem;
+
+}
+.about-3 img
+{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 55rem;
+    margin-top: -19rem;
+}
+.about-3 p
+{
+    padding: 8rem 0 0 3rem;
+    
+}
+.footer
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+  
+.footer .box-container
+{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1.5rem;
+}
+  
+.footer .box-container .box h3
+{
+    font-size: 1.3rem;
+    padding: 4rem 0 0 4rem;
+    color: #fff;
+}
+  
+.footer .box-container .box a
+{
+    display: block;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+  
+.footer .box-container .box a i 
+{
+    color: #219150;
+    padding-right: .5rem;
+}
+  
+.footer .box-container .box a:hover 
+{
+    color: #219150;
+}
+  
+.footer .box-container .box a:hover i
+{
+    padding-right: 2rem;
+}
+  
+.footer .credit
+{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+  
+.footer .credit span
+{
+    color: #219150;
+}
+
+.broker{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.broker-wr{
+    width: 100%;
+    max-width: 1140px;
+    height: 150%;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.broker-title{
+    font-size: 40px;
+    color: var(--color-gray);
+    margin-bottom: 50px;
+}
+
+.broker-btn {
+    font-weight: bolder;
+    width: 150px;
+    height: 36px;
+    font-size: 12.8px;
+    border: none;
+    border-radius: 7px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--white-color);
+}
+
+.broker-btn a{
+    text-decoration: none;
+    width: 100%;
+    color: var(--white-color);
+}
+
+.broker-btn-c{
+    font-weight: bolder;
+    font-size: 12.8px;
+    padding: 11px 14px;
+    background-color: #868E96;
+    color: var(--white-color);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.broker-btn-c.m6{
+    margin: 0 6px;
+}
+
+.broker-btn.broker-btn--active{
+    background-color: var(--color-button);
+}
+
+.broker-btn.broker-btn--active:hover{
+    background-color: var(--hover-btn);
+}
+
+.broker-btn.broker-btn--disable{
+    background-color: #868E96;
+}
+
+.broker-btn.broker-btn--disable:hover,
+.broker-btn-c:hover{
+    background-color: var(--color-gray);
+}
+
+.broker-btn.broker-btn--active.mr30,
+.broker-btn.broker-btn--disable.mr30{
+    margin-right: 30px;
+}
+
+.broker-list{
+    width: 100%;
+    max-width: 1110px;
+    height: 100%;
+    margin: 0 auto 24px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center;
+    justify-content: center;
+
+}
+
+.broker-list-wr{
+    display: flex;
+}
+
+.broker-dealer-1{
+    width: 50%;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.broker-dealer-1__img{
+    width: 500px;
+    height: 350px;
+}
+
+.broker-dealer-1__text{
+    font-size: 16px;
+    color: #868E96;
+}
+
+.broker-dealer-2{
+    width: 50%;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.broker-dealer-2__list{
+    list-style-type: none;
+    font-size: 16px;
+    color: var(--color-gray);
+}
+
+.broker-dealer-2__item{
+    margin-bottom: 16px;
+}
+
+.broker-item{
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    color: var(--color-gray);
+    text-align: justify;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.broker-img-wr{
+    width: 72px;
+    height: 72px;
+    border: 5px solid #73EF96;
+    border-radius: 50%;
+}
+
+.broker-information{
+    margin-left: 15px;
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.broker-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.broker-social{
+    margin-top: 16px;
+}
+
+.broker-btn-fix{
+    width: 234px;
+}

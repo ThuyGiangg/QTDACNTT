@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear; 
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 9%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+  }
+
+.header .logo {
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #10221b;
+    font-weight: bolder;
+}
+
+.header .navbar a {
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: #10221b;
+}
+
+.header .navbar a:hover {
+    color: #219150;
+}
+
+.content
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+}
+
+.Title
+{
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    padding: 14rem 0 2.5rem 0;
+    
+}
+.Title b
+{
+    font-size: 2.5rem; 
+}
+.Container
+{
+   width: 65%;
+   height: 79rem;
+   margin: 0 auto; 
+}
+.container_1
+{
+    width: 100%;
+    height: 20rem;
+    
+}
+.container_1 h3
+{
+    font-size: 1.5rem;
+    padding: 2rem 0 0.5rem 3rem;
+}
+.container_1 p
+{
+    padding: 0.5rem 0 0.5rem 3rem;
+}
+.container_1 ul
+{
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+.container_2
+{
+    width: 100%;
+    height: 10rem;
+}
+.container_2 h3
+{
+    font-size: 1.5rem;
+    padding: 2rem 0 0.5rem 3rem;
+}
+.container_2 p
+{
+    padding: 0.5rem 0 0.5rem 3rem;
+}
+.container_3
+{
+    width: 100%;
+    height: 23rem;
+}
+.container_3 h3
+{
+    font-size: 1.5rem;
+    padding: 2rem 0 0.5rem 3rem;
+}
+
+.container_3 ul
+{
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+.container_4
+{
+    width: 100%;
+    height: 23rem;
+}
+.container_4 h3
+{
+    font-size: 1.5rem;
+    padding: 2rem 0 0.5rem 3rem;
+}
+.container_4 ul
+{
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+.container_4 p
+{
+    padding: 0.5rem 0 0.5rem 3rem;
+}
+.container_5
+{
+    width: 100%;
+    height: 30rem;
+    background-color: white;
+    padding: 3rem 0 2rem 0;
+}
+.container_5 .product_text
+{
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    padding: 1rem 0 8rem 0 ;
+}
+.product_text b
+{
+    font-size: 2.3rem;
+}
+
+.container_5 .grid_container
+{
+    width: 80%;
+    height: 16rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 267px 267px 267px 267px;
+    gap: 0.2rem;
+    
+}
+.grid_container .product_list
+{
+    width: 16.5rem;
+    height: 16rem;
+}
+.list_img 
+{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.list_img img
+{
+    width: 7rem ;
+    height: 7rem;
+}
+.footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 1.3rem;
+    padding: 4rem 0 0 4rem;
+    color: #fff;
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0.5rem 0 0.5rem 4rem;
+  }
+  
+  .footer .box-container .box a i {
+    color: #219150;
+    padding-right: .5rem;
+  }
+  
+  .footer .box-container .box a:hover {
+    color: #219150;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .footer .credit span {
+    color: #219150;
+  }
